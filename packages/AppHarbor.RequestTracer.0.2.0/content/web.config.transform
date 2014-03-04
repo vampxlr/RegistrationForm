@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+	<appSettings>
+		<!-- set this flag to 1 to enable the request tracer-->
+		<add key="appharbor.requesttracer.enabled" value="0" />
+	</appSettings>
+	<system.webServer>
+		<modules>
+			<remove name="AppHarborRequestTracer" />
+			<add name="AppHarborRequestTracer" type="AppHarbor.RequestTracer.RequestLoggingModule, AppHarbor.RequestTracer" />
+		</modules>
+	</system.webServer>
+</configuration>

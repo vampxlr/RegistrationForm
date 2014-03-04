@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AppHarbor.RequestTracer</id>
+    <version>0.2.0</version>
+    <title>AppHarbor RequestTracer</title>
+    <authors>Premotion Software Solutions and contributors</authors>
+    <owners>Premotion Software Solutions and contributors</owners>
+    <projectUrl>https://github.com/trilobyte/Appharbor-Request-Tracer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This module traces incoming requests and their outgoing responses using the event log. The module should work on any platform but is specifically designed to work with AppHarbor.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright © 2012 Premotion Software Solutions and contributors.</copyright>
+    <language />
+    <tags>AppHarbor</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

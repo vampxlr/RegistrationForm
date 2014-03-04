@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ElmahR.Appharbor</id>
+    <version>1.0.0</version>
+    <title>ElmahR.Appharbor</title>
+    <authors>Wasp</authors>
+    <owners>Wasp</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://bitbucket.org/wasp/elmahr</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>ElmahR-Appharbor build info integration</description>
+    <releaseNotes>1.0.0 Final Release</releaseNotes>
+    <copyright>Copyright 2012-13 Roberto Vespa</copyright>
+    <language />
+    <tags>ElmahR ELMAH SignalR Appharbor</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.Core" version="1.0.1" />
+    </dependencies>
+  </metadata>
+</package>
