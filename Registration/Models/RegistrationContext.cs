@@ -9,7 +9,7 @@ namespace Registration.Models
     public class RegistrationContext : DbContext
     {
         public RegistrationContext()
-            : base("Registration")
+            : base("registration")
         {
         }
         public DbSet<RegistrationModel> Registrations { get; set; }
