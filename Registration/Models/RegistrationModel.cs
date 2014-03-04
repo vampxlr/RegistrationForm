@@ -11,6 +11,7 @@ namespace Registration.Models
     {
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int id { get; set; }
         [Required]
         public string FullName { get; set; }
