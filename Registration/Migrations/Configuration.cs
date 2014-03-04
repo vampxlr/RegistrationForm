@@ -10,7 +10,6 @@ namespace Registration.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "Registration.Models.RegistrationContext";
         }
 
         protected override void Seed(Registration.Models.RegistrationContext context)

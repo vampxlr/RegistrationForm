@@ -86,5 +86,3 @@ G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Debug\Registratio
 G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Debug\Registration.pdb
 G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\EntityFramework.SqlServer.dll
 G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\EntityFramework.SqlServer.xml
-G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Debug\Registration.Migrations.InitialCreate.resources
-G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Debug\Registration.csproj.GenerateResource.Cache
