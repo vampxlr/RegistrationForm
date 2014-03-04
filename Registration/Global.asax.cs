@@ -19,7 +19,9 @@ namespace Registration
         protected void Application_Start()
         {
             Database.SetInitializer<RegistrationContext>(null);
+            Database.SetInitializer<UsersContext>(null);
           
+            
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

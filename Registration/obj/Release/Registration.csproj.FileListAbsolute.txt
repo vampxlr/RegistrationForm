@@ -86,3 +86,13 @@ G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\zh-Hant\System.Sp
 G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Release\Registration.csprojResolveAssemblyReference.cache
 G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Release\Registration.dll
 G:\Web Projects\RegistrationMVC4\Registration\Registration\obj\Release\Registration.pdb
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\AppHarbify.EF.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\AppHarbor.RequestTracer.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\AppHarbor.Sdk.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\ElmahR.Appharbor.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\Microsoft.AspNet.SignalR.Core.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\RestSharp.dll
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\AppHarbor.RequestTracer.xml
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\AppHarbor.Sdk.pdb
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\Microsoft.AspNet.SignalR.Core.xml
+G:\Web Projects\RegistrationMVC4\Registration\Registration\bin\RestSharp.xml
