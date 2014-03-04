@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<body class="registration">
+    <section>
+        <h1><strong>Registration</strong> Form</h1>
+        <div class="Label">@Html.ValidationSummary(true, "Registration failed. Please Fill Up Everything.")</div>
+        <form method="post" action="">
+
+            <input type="text" name="FullName" placeholder="Full Name" title="Please provide your Full Name." />
+
+            <input type="text" name="Gender" placeholder="Gender" title="Please provide your Gender." />
+
+            <input type="text" name="EmailAddress" placeholder="Email Address" title="Please provide your Email Address." />
+
+            <input type="text" name="HearAbout" placeholder="From where did you hear about us ?" title="From where did you hear about us." />
+
+            <input type="text" name="PhoneNo" placeholder="Phone Number" title="Please provide your Phone NO." />
+
+            <input type="text" name="SkypeID" placeholder="Skype ID" title="Please provide your Skype ID." />
+
+            <input type="text" name="Area" placeholder="Area you live in" title="Please mention the area you live in" />
+
+            <input type="text" name="Instituition" placeholder="Where do you study?" title="Please provide where you are currently studying." />
+
+            <input type="text" name="FacebookURL" placeholder="Facebook URL" title="Please provide your Facebook URL." />
+            <button class="blue">Save</button>
+
+        </form>
+
+    </section>
+
+    <script type="text/javascript">
+        // Page load delay by Curtis Henson - http://curtishenson.com/articles/quick-tip-delay-page-loading-with-jquery/
+        $(function(){
+            $('.login button').click(function(e){
+                // Get the url of the link
+                var toLoad = $(this).attr('href');
+
+                // Do some stuff
+                $(this).addClass("loading");
+
+                // Stop doing stuff
+                // Wait 700ms before loading the url
+                setTimeout(function(){window.location = toLoad}, 10000);
+
+                // Don't let the link do its natural thing
+                e.preventDefault
+            });
+
+            $('input').each(function() {
+
+                var default_value = this.value;
+
+                $(this).focus(function(){
+                    if(this.value == default_value) {
+                        this.value = '';
+                    }
+                });
+
+                $(this).blur(function(){
+                    if(this.value == '') {
+                        this.value = default_value;
+                    }
+                });
+
+            });
+        });
+    </script>
+</body>

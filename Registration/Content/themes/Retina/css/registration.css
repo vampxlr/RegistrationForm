@@ -1,0 +1,83 @@
+
+body.registration {
+		padding-top: 30px;
+
+	}
+	
+	.registration section {
+		width: 85%;
+		margin: 0 auto 0 auto;
+	}
+	
+	.registration section h1 {
+		font-size: 32px;
+	}
+	
+	/** registration  **/
+
+body.registration {
+	background: #3B3E40;
+}
+
+.registration section {
+	width: 300px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+
+.registration section p a {
+	color: #ccc;
+}
+
+.registration section p {
+	margin-top: 15px;
+}
+
+
+
+.registration section h1 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	margin-bottom: 15px;
+	letter-spacing: -1px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.registration section h1 span {
+	font-weight: 600;
+}
+
+.registration input {
+	border: 1px solid #323537;
+}
+
+.registration button {
+	border: 1px solid #323537;
+	width: 100%;
+	margin: 0;
+	font-weight: bold;
+}
+
+.registration button:hover {
+	color: #3B3E40;
+	text-shadow: none;
+	background: #ededee !important;
+	background: -moz-linear-gradient(top, #ededee 0%, #dddddd 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededee), color-stop(100%,#dddddd)) !important;
+	background: -webkit-linear-gradient(top, #ededee 0%,#dddddd 100%) !important;
+	background: -o-linear-gradient(top, #ededee 0%,#dddddd 100%) !important;
+	background: -ms-linear-gradient(top, #ededee 0%,#dddddd 100%) !important;
+	background: linear-gradient(to bottom, #ededee 0%,#dddddd 100%) !important;
+}
+
+
+.Label{
+
+color: red;
+font-family: 'Open Sans', sans-serif;
+font-size: 19px;
+margin-bottom: 10px;
+letter-spacing: -1px;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+} 
